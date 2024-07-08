@@ -167,7 +167,7 @@ const styles = StyleSheet.create({
     },
     msgText: {
         fontSize: 14,
-        backgroundColor: "#2076ff",
+        backgroundColor: "#3D80EB",
         borderRadius: 6,
         padding: 2,
         fontWeight: 'bold',

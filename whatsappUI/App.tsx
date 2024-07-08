@@ -1,12 +1,12 @@
 import { SafeAreaView, StyleSheet, Text, View, ScrollView } from 'react-native'
 import React from 'react'
 import StoryCard from './components/StoryCard'
-import Background from './components/Background'
 import ChatsCard from './components/ChatsCard'
 
 export default function App() {
+  
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.container}>
       <ScrollView>
         <StoryCard />
         <ChatsCard />
@@ -15,4 +15,11 @@ export default function App() {
   )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'black',
+    justifyContent: 'center',
+    alignItems: 'center',
+  }
+})

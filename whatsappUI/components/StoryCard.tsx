@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
         fontWeight: '600',
         paddingHorizontal: 15,
         marginTop: 15,
-        color: "#2076ff"
+        color: "#3D80EB"
     },
     container: {
         padding: 10,
@@ -112,7 +112,8 @@ const styles = StyleSheet.create({
         borderRadius: 50 / 2,
         marginBottom: 5,
         borderWidth: 2,
-        borderColor: '#2076ff'
+        borderColor: '#3D80EB',
+        backgroundColor: '#3D80EB'
     },
     // img: {
     //     height: screenHeight,
